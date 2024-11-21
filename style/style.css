@@ -1,0 +1,86 @@
+/* General reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for icons (like +, -) */
+i {
+  font-size: 35px;  /* Size of icons */
+  cursor: pointer; /* Makes the icons clickable */
+  margin: 0 10px;   /* Adds space between the icons */
+  color: black;     /* Sets the color of the icons */
+}
+
+/* Main container of the page, centering everything */
+main {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  justify-content: center; /* Centers items vertically */
+  align-items: center;    /* Centers items horizontally */
+}
+
+/* Style for the shopping card container */
+.shopping-card-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center;    /* Centers items horizontally */
+  background-color: #e7e7e7; /* Light gray background color */
+  border-radius: 10px;    /* Rounded corners */
+  padding: 3%;            /* Adds padding inside the container */
+  margin: 50px 0;         /* Adds space around the container */
+}
+
+/* Style for the total price section */
+.total-price span {
+  font-size: 30px;  /* Size of the total price text */
+}
+
+/* Style for the "total" text to make it bold */
+.total {
+  font-weight: bold;  /* Makes the total price bold */
+}
+
+/* Container for the list of products */
+.list-products {
+  display: flex;
+  justify-content: center; /* Centers products horizontally */
+  margin-top: 30px;        /* Adds space above the products */
+  width: 70%;              /* Sets the width to 70% of the parent container */
+}
+
+/* Style for individual product cards */
+.card {
+  padding: 5%;  /* Adds padding inside each card */
+}
+
+/* Flex container for the card body (where product details are shown) */
+.cardbody {
+  display: flex;
+  flex-direction: column;  /* Stacks content vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center;     /* Centers content horizontally */
+}
+
+/* Style for the quantity number */
+.quantity {
+  font-size: 25px; /* Size of the quantity text */
+}
+
+/* Style for the container inside the card body (icons and buttons) */
+.cardbody div {
+  display: flex;
+  justify-content: center; /* Centers icons horizontally */
+  align-items: center;     /* Centers icons vertically */
+  margin-top: 25px;        /* Adds space above the icons */
+}
+
+/* Style for the trash icon */
+.fa-trash-alt {
+  color: #de6b5c;  /* Red color for the trash icon */
+}
+
+/* Style for the heart icon when it is active (clicked) */
+.fa-heart.active {
+  color: red;  /* Makes the heart icon red when clicked */
+}
